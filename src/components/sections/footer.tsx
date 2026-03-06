@@ -75,7 +75,7 @@ const Footer = () => {
 
           {/* Column 3: Email & Hours */}
           <div className="bg-white rounded-[1.5rem] border border-[#E2E8F0] p-8 shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] h-full">
-            <h3 className="text-[1.125rem] font-bold text-[#1E293B] mb-6">Correo y horarios</h3>
+            <h3 className="text-[1.125rem] font-bold text-[#1E293B] mb-6">Correos y horarios</h3>
             <ul className="space-y-4 mb-6">
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#1080A0]" />
