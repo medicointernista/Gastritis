@@ -37,10 +37,10 @@ const AppointmentBanner = () => {
                   Enviar WhatsApp
                 </a>
 
-                {/* Phone Button */}
+                {/* Phone Button test test test */}
                 <a
                   href="tel:+573009895852"
-                  className="inline-flex w-full sm:w-auto items-center justify-center gap-2 whitespace-nowrap rounded-[24px] bg-white border border-[#E2E8F0] px-8 py-4 text-[15px] font-bold text-[#64748B] transition-all hover:bg-[#F8F9FA] hover:border-[#1080A0] hover:text-[#1080A0] hover:scale-[1.02] active:scale-95 shadow-sm"
+                  className="inline-flex w-full tssts sm:w-auto items-center justify-center gap-2 whitespace-nowrap rounded-[24px] bg-white border border-[#E2E8F0] px-8 py-4 text-[15px] font-bold text-[#64748B] transition-all hover:bg-[#F8F9FA] hover:border-[#1080A0] hover:text-[#1080A0] hover:scale-[1.02] active:scale-95 shadow-sm"
                 >
                   <Phone size={18} className="text-[#1080A0]" />
                   Llamar por teléfono
