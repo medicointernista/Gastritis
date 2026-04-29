@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Services = () => {
   return (
@@ -20,13 +19,11 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Medicina Interna Card */}
             <div className="group flex flex-col overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] transition-all duration-300 hover:shadow-xl hover:border-[#1080A0]/20">
-              <figure className="relative h-64 w-full md:h-72 overflow-hidden">
-                <Image
+              <figure className="h-64 w-full md:h-72 overflow-hidden">
+                <img
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/d1704aa7-153e-49e3-b4b6-de0676c393f3/Medicina-interna-1772647827431.webp?width=8000&height=8000&resize=contain"
                   alt="Medicina Interna Medellín - Dr. Willmer Obregón"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </figure>
             <div className="p-8 md:p-10 flex flex-col flex-grow">
@@ -41,13 +38,11 @@ const Services = () => {
 
           {/* Consulta para Gastritis Card */}
           <div className="group flex flex-col overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] transition-all duration-300 hover:shadow-xl hover:border-[#1080A0]/20">
-            <figure className="relative h-64 w-full md:h-72 overflow-hidden">
-                <Image
+            <figure className="h-64 w-full md:h-72 overflow-hidden">
+                <img
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/d1704aa7-153e-49e3-b4b6-de0676c393f3/Consulta-para-Gastritis-1772647810599.webp?width=8000&height=8000&resize=contain"
                   alt="Tratamiento Gastritis Medellín - Consulta Especializada"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
             </figure>
             <div className="p-8 md:p-10 flex flex-col flex-grow">

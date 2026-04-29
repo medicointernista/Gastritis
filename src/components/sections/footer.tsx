@@ -1,9 +1,8 @@
 "use client";
 
 import React from 'react';
-import Image from 'next/image';
-import { 
-  Facebook, 
+import {
+  Facebook,
   Instagram, 
   Youtube, 
   MapPin, 
@@ -112,11 +111,9 @@ const Footer = () => {
           </div>
           
           <div className="opacity-80">
-            <Image 
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1704aa7-153e-49e3-b4b6-de0676c393f3-gastritis-internistamedellin-com/assets/icons/logotipo-1769353677967-3.png" 
-              alt="Logo Dr. Willmer Obregón" 
-              width={180} 
-              height={50}
+            <img
+              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d1704aa7-153e-49e3-b4b6-de0676c393f3-gastritis-internistamedellin-com/assets/icons/logotipo-1769353677967-3.png"
+              alt="Logo Dr. Willmer Obregón"
               className="h-10 object-contain"
             />
           </div>

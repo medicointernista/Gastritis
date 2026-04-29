@@ -1,6 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
-import { CheckCircle2, Award, Cpu } from 'lucide-react';
+import { CircleCheck as CheckCircle2, Award, Cpu } from 'lucide-react';
 
 const BiographySection = () => {
   const experiences = [
@@ -25,13 +24,10 @@ const BiographySection = () => {
                 <div className="flex flex-col bg-white">
                   {/* Image Section */}
                   <div className="relative w-full p-6 md:p-10 pb-2 flex items-center justify-center">
-                    <Image
+                    <img
                       src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/d1704aa7-153e-49e3-b4b6-de0676c393f3/Dr.-Willmer-Obregon-1772655452848.jpg?width=1200&height=1200&resize=contain"
                       alt="Dr. Willmer Obregón - Médico Internista en Medellín"
-                      width={800}
-                      height={800}
                       className="w-full h-auto object-contain rounded-2xl shadow-sm border border-[#E2E8F0]"
-                      priority
                     />
                   </div>
 
